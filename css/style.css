@@ -42,6 +42,11 @@ p{
 .carousel-item{
 	width: 30%;
 }
+/*carousel*/
+.carousel{
+	width: 30%;
+}
+/*end carousel*/
 img{
 	width:100%;
 	height: auto;
