@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	background-color:#eeeeee;	
+	font-family: 'Alata', sans-serif;
+}
+p{	
+	display: flex; /* or inline-flex */
+	background-color:#222831;
+	color: gray;
+	padding:10%;
+}
+.container {
+	display: flex; /* or inline-flex */
+	color: black 30%;
+	padding-top: 5%;
+	padding: 5%;
+}
+.carousel-item{
+	width: 30%;
+}
+img{
+	width:30%;
+	height: auto;
+}
