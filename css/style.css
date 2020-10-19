@@ -11,6 +11,8 @@ p{
 	color: gray;
 	padding:10%;
 }
+
+/* HEAD */
 .container {
 	display: flex; /* or inline-flex */
 	color: black 30%;
@@ -21,6 +23,62 @@ p{
 	width: 30%;
 }
 img{
-	width:30%;
+	width:20%;
 	height: auto;
 }
+
+/*grid*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+/*.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+/*  font-size: 30px;*/
+}*/
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+/*grid ends*/
+
+/*carousel*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 20%;
+    margin: auto;
+  }
+/*end carousel*/
+img{
+	width:100%;
+	height: auto;
+}
+
+/*footer{
+	background-color:#222831; 
+	width: 100%;
+	height: 50%;
+
+}*/
+
+.footer {
+    background-color: #222831;
+    padding-top: 60%;
+}
+.mt-auto, .my-auto {
+    margin-top: auto!important;
+}
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+}
+>>>>>>> 121f54a2353d5e7450ad15ef7f73775fe0eefc1a
